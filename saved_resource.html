@@ -1,0 +1,2597 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://ais-dev-3nvlfkuz3vpozjpl5rp7hy-925008340682.asia-east1.run.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module" src="./client"></script>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Pizza Restaurant</title>
+  <script src="./_aistudio-iframe.js.download"></script><script src="./html2canvas-pro"></script><style>.aistudio-hover-highlight { box-shadow: inset 0 0 0 0.5px white, inset 0 0 0 1.5px rgba(128,128,128,0.6) !important; }.aistudio-active-highlight { outline: 2px solid #87a9ff !important; outline-offset: -2px !important; box-shadow: 0 0 0 0.5px rgba(0,0,0,0.3), inset 0 0 0 0.5px rgba(0,0,0,0.3) !important; }.aistudio-generating-blur { filter: blur(5px) grayscale(100%) brightness(28%) !important; transition: filter 0.3s ease; }#aistudio-focus-mode-tag { position: absolute; display: none; align-items: center; gap: 4px; background: #87a9ff; border-radius: 12px; z-index: 10000; padding: 8px; color: #32302c; font-family: Inter, sans-serif; font-size: 14px; font-style: normal; font-weight: 500; line-height: 21px; pointer-events: none; }#aistudio-hover-mode-tag { position: absolute; display: none; align-items: center; gap: 4px; background: rgba(128,128,128,0.6); border-radius: 12px; z-index: 10000; padding: 8px; color: white; font-family: Inter, sans-serif; font-size: 14px; font-style: normal; font-weight: 500; line-height: 21px; pointer-events: none; }.aistudio-img-icon { display: none; vertical-align: middle; pointer-events: auto; cursor: pointer; }.aistudio-img-icon.visible { display: inline-flex; }#aistudio-focus-mode-tag .aistudio-img-icon { position: relative; width: 26px; height: 26px; background: #32302c; border-radius: 6px; margin: -4px -4px -4px 0; }#aistudio-focus-mode-tag .aistudio-img-icon::before { content: ""; position: absolute; top: 4px; left: 4px; width: 18px; height: 18px; background-color: white; -webkit-mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); mask-size: contain; mask-repeat: no-repeat; }#aistudio-hover-mode-tag .aistudio-img-icon { position: relative; width: 18px; height: 18px; margin-left: 4px; }#aistudio-hover-mode-tag .aistudio-img-icon::before { content: ""; position: absolute; top: 0; left: 0; width: 18px; height: 18px; background-color: white; -webkit-mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; mask-image: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_fix_auto/default/24px.svg"); mask-size: contain; mask-repeat: no-repeat; }#aistudio-focus-mode-tag .aistudio-img-icon:hover, #aistudio-hover-mode-tag .aistudio-img-icon:hover { background: #424242 !important; }#aistudio-focus-mode-tag .aistudio-img-icon:active, #aistudio-hover-mode-tag .aistudio-img-icon:active { background: #393f51 !important; }</style><style type="text/css" data-vite-dev-id="/app/applet/src/index.css">
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+/*! tailwindcss v4.3.1 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme, base, components, utilities;
+@layer theme {
+  :root, :host {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --color-red-300: oklch(80.8% 0.114 19.571);
+    --color-red-400: oklch(70.4% 0.191 22.216);
+    --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-red-600: oklch(57.7% 0.245 27.325);
+    --color-red-700: oklch(50.5% 0.213 27.518);
+    --color-red-950: oklch(25.8% 0.092 26.042);
+    --color-orange-400: oklch(75% 0.183 55.934);
+    --color-amber-50: oklch(98.7% 0.022 95.277);
+    --color-amber-100: oklch(96.2% 0.059 95.617);
+    --color-amber-200: oklch(92.4% 0.12 95.746);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-400: oklch(82.8% 0.189 84.429);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
+    --color-amber-600: oklch(66.6% 0.179 58.318);
+    --color-amber-700: oklch(55.5% 0.163 48.998);
+    --color-amber-800: oklch(47.3% 0.137 46.201);
+    --color-amber-900: oklch(41.4% 0.112 45.904);
+    --color-amber-950: oklch(27.9% 0.077 45.635);
+    --color-yellow-300: oklch(90.5% 0.182 98.111);
+    --color-yellow-400: oklch(85.2% 0.199 91.936);
+    --color-yellow-600: oklch(68.1% 0.162 75.834);
+    --color-yellow-700: oklch(55.4% 0.135 66.442);
+    --color-lime-400: oklch(84.1% 0.238 128.85);
+    --color-emerald-400: oklch(76.5% 0.177 163.223);
+    --color-emerald-500: oklch(69.6% 0.17 162.48);
+    --color-emerald-600: oklch(59.6% 0.145 163.225);
+    --color-emerald-950: oklch(26.2% 0.051 172.552);
+    --color-rose-500: oklch(64.5% 0.246 16.439);
+    --color-stone-50: oklch(98.5% 0.001 106.423);
+    --color-stone-100: oklch(97% 0.001 106.424);
+    --color-stone-200: oklch(92.3% 0.003 48.717);
+    --color-stone-300: oklch(86.9% 0.005 56.366);
+    --color-stone-400: oklch(70.9% 0.01 56.259);
+    --color-stone-500: oklch(55.3% 0.013 58.071);
+    --color-stone-600: oklch(44.4% 0.011 73.639);
+    --color-stone-700: oklch(37.4% 0.01 67.558);
+    --color-stone-800: oklch(26.8% 0.007 34.298);
+    --color-stone-900: oklch(21.6% 0.006 56.043);
+    --color-stone-950: oklch(14.7% 0.004 49.25);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --container-md: 28rem;
+    --container-lg: 32rem;
+    --container-2xl: 42rem;
+    --container-4xl: 56rem;
+    --container-7xl: 80rem;
+    --text-xs: 0.75rem;
+    --text-xs--line-height: calc(1 / 0.75);
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+    --tracking-tighter: -0.05em;
+    --tracking-tight: -0.025em;
+    --tracking-wide: 0.025em;
+    --tracking-wider: 0.05em;
+    --tracking-widest: 0.1em;
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-3xl: 1.5rem;
+    --drop-shadow-lg: 0 4px 4px rgb(0 0 0 / 0.15);
+    --animate-spin: spin 1s linear infinite;
+    --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    --animate-bounce: bounce 1s infinite;
+    --blur-xs: 4px;
+    --blur-xl: 24px;
+    --blur-2xl: 40px;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+    --font-display: "Space Grotesk", sans-serif;
+  }
+}
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol, ul, menu {
+    list-style: none;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+  }
+  @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentcolor;
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  ::-webkit-calendar-picker-indicator {
+    line-height: 1;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button, input:where([type="button"], [type="reset"], [type="submit"]), ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+@layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .relative {
+    position: relative;
+  }
+  .inset-0 {
+    inset: 0;
+  }
+  .inset-4 {
+    inset: calc(var(--spacing) * 4);
+  }
+  .inset-5 {
+    inset: calc(var(--spacing) * 5);
+  }
+  .inset-8 {
+    inset: calc(var(--spacing) * 8);
+  }
+  .-top-1 {
+    top: calc(var(--spacing) * -1);
+  }
+  .-top-1\.5 {
+    top: calc(var(--spacing) * -1.5);
+  }
+  .top-0 {
+    top: 0;
+  }
+  .top-1\/2 {
+    top: calc(1 / 2 * 100%);
+  }
+  .top-3 {
+    top: calc(var(--spacing) * 3);
+  }
+  .top-6 {
+    top: calc(var(--spacing) * 6);
+  }
+  .-right-1\.5 {
+    right: calc(var(--spacing) * -1.5);
+  }
+  .-right-2 {
+    right: calc(var(--spacing) * -2);
+  }
+  .right-0 {
+    right: 0;
+  }
+  .right-3 {
+    right: calc(var(--spacing) * 3);
+  }
+  .bottom-3 {
+    bottom: calc(var(--spacing) * 3);
+  }
+  .left-0 {
+    left: 0;
+  }
+  .left-1\/2 {
+    left: calc(1 / 2 * 100%);
+  }
+  .left-3 {
+    left: calc(var(--spacing) * 3);
+  }
+  .left-4 {
+    left: calc(var(--spacing) * 4);
+  }
+  .z-0 {
+    z-index: 0;
+  }
+  .z-10 {
+    z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .my-auto {
+    margin-block: auto;
+  }
+  .mt-0\.5 {
+    margin-top: calc(var(--spacing) * 0.5);
+  }
+  .mt-1 {
+    margin-top: var(--spacing);
+  }
+  .mt-1\.5 {
+    margin-top: calc(var(--spacing) * 1.5);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+  .mb-0\.5 {
+    margin-bottom: calc(var(--spacing) * 0.5);
+  }
+  .mb-1 {
+    margin-bottom: var(--spacing);
+  }
+  .mb-1\.5 {
+    margin-bottom: calc(var(--spacing) * 1.5);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .ml-1 {
+    margin-left: var(--spacing);
+  }
+  .ml-1\.5 {
+    margin-left: calc(var(--spacing) * 1.5);
+  }
+  .ml-auto {
+    margin-left: auto;
+  }
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .block {
+    display: block;
+  }
+  .flex {
+    display: flex;
+  }
+  .grid {
+    display: grid;
+  }
+  .hidden {
+    display: none;
+  }
+  .inline-flex {
+    display: inline-flex;
+  }
+  .table {
+    display: table;
+  }
+  .h-0\.5 {
+    height: calc(var(--spacing) * 0.5);
+  }
+  .h-1\.5 {
+    height: calc(var(--spacing) * 1.5);
+  }
+  .h-3 {
+    height: calc(var(--spacing) * 3);
+  }
+  .h-3\.5 {
+    height: calc(var(--spacing) * 3.5);
+  }
+  .h-4 {
+    height: calc(var(--spacing) * 4);
+  }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
+  }
+  .h-7 {
+    height: calc(var(--spacing) * 7);
+  }
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
+  .h-24 {
+    height: calc(var(--spacing) * 24);
+  }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
+  .h-44 {
+    height: calc(var(--spacing) * 44);
+  }
+  .h-48 {
+    height: calc(var(--spacing) * 48);
+  }
+  .h-56 {
+    height: calc(var(--spacing) * 56);
+  }
+  .h-full {
+    height: 100%;
+  }
+  .max-h-\[50px\] {
+    max-height: 50px;
+  }
+  .max-h-\[120px\] {
+    max-height: 120px;
+  }
+  .max-h-\[160px\] {
+    max-height: 160px;
+  }
+  .max-h-\[280px\] {
+    max-height: 280px;
+  }
+  .min-h-\[360px\] {
+    min-height: 360px;
+  }
+  .min-h-\[380px\] {
+    min-height: 380px;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .w-1\.5 {
+    width: calc(var(--spacing) * 1.5);
+  }
+  .w-3 {
+    width: calc(var(--spacing) * 3);
+  }
+  .w-3\.5 {
+    width: calc(var(--spacing) * 3.5);
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
+  }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
+  }
+  .w-24 {
+    width: calc(var(--spacing) * 24);
+  }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
+  }
+  .w-56 {
+    width: calc(var(--spacing) * 56);
+  }
+  .w-full {
+    width: 100%;
+  }
+  .max-w-2xl {
+    max-width: var(--container-2xl);
+  }
+  .max-w-4xl {
+    max-width: var(--container-4xl);
+  }
+  .max-w-7xl {
+    max-width: var(--container-7xl);
+  }
+  .max-w-\[120px\] {
+    max-width: 120px;
+  }
+  .max-w-\[150px\] {
+    max-width: 150px;
+  }
+  .max-w-\[170px\] {
+    max-width: 170px;
+  }
+  .max-w-\[200px\] {
+    max-width: 200px;
+  }
+  .max-w-lg {
+    max-width: var(--container-lg);
+  }
+  .max-w-md {
+    max-width: var(--container-md);
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .-translate-x-1\/2 {
+    --tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-12 {
+    --tw-translate-x: calc(var(--spacing) * 12);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-1\/2 {
+    --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .scale-95 {
+    --tw-scale-x: 95%;
+    --tw-scale-y: 95%;
+    --tw-scale-z: 95%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .scale-105 {
+    --tw-scale-x: 105%;
+    --tw-scale-y: 105%;
+    --tw-scale-z: 105%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .scale-110 {
+    --tw-scale-x: 110%;
+    --tw-scale-y: 110%;
+    --tw-scale-z: 110%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .rotate-\[-2deg\] {
+    rotate: -2deg;
+  }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .animate-bounce {
+    animation: var(--animate-bounce);
+  }
+  .animate-pulse {
+    animation: var(--animate-pulse);
+  }
+  .animate-spin {
+    animation: var(--animate-spin);
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .items-start {
+    align-items: flex-start;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .gap-1 {
+    gap: var(--spacing);
+  }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .gap-3\.5 {
+    gap: calc(var(--spacing) * 3.5);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+  .space-y-0\.5 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 0.5) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 0.5) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-1 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(var(--spacing) * var(--tw-space-y-reverse));
+      margin-block-end: calc(var(--spacing) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-1\.5 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 1.5) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 1.5) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-2 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-2\.5 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 2.5) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 2.5) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-3 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-3\.5 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 3.5) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 3.5) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-4 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-5 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 5) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 5) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-6 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-8 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 8) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .rounded-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+  .rounded-md {
+    border-radius: var(--radius-md);
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
+  }
+  .border-\[6px\] {
+    border-style: var(--tw-border-style);
+    border-width: 6px;
+  }
+  .border-\[8px\] {
+    border-style: var(--tw-border-style);
+    border-width: 8px;
+  }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
+  .border-l {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
+  .border-dashed {
+    --tw-border-style: dashed;
+    border-style: dashed;
+  }
+  .border-double {
+    --tw-border-style: double;
+    border-style: double;
+  }
+  .border-none {
+    --tw-border-style: none;
+    border-style: none;
+  }
+  .border-amber-200 {
+    border-color: var(--color-amber-200);
+  }
+  .border-amber-200\/40 {
+    border-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-200) 40%, transparent);
+    }
+  }
+  .border-amber-300 {
+    border-color: var(--color-amber-300);
+  }
+  .border-amber-400 {
+    border-color: var(--color-amber-400);
+  }
+  .border-amber-400\/20 {
+    border-color: color-mix(in srgb, oklch(82.8% 0.189 84.429) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-400) 20%, transparent);
+    }
+  }
+  .border-amber-500 {
+    border-color: var(--color-amber-500);
+  }
+  .border-amber-500\/10 {
+    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 10%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-500) 10%, transparent);
+    }
+  }
+  .border-amber-500\/15 {
+    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 15%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-500) 15%, transparent);
+    }
+  }
+  .border-amber-500\/20 {
+    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-500) 20%, transparent);
+    }
+  }
+  .border-amber-500\/30 {
+    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-500) 30%, transparent);
+    }
+  }
+  .border-amber-600 {
+    border-color: var(--color-amber-600);
+  }
+  .border-amber-700\/80 {
+    border-color: color-mix(in srgb, oklch(55.5% 0.163 48.998) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-700) 80%, transparent);
+    }
+  }
+  .border-amber-950 {
+    border-color: var(--color-amber-950);
+  }
+  .border-emerald-500\/20 {
+    border-color: color-mix(in srgb, oklch(69.6% 0.17 162.48) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-emerald-500) 20%, transparent);
+    }
+  }
+  .border-emerald-600 {
+    border-color: var(--color-emerald-600);
+  }
+  .border-red-500\/20 {
+    border-color: color-mix(in srgb, oklch(63.7% 0.237 25.331) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-red-500) 20%, transparent);
+    }
+  }
+  .border-red-600 {
+    border-color: var(--color-red-600);
+  }
+  .border-stone-50 {
+    border-color: var(--color-stone-50);
+  }
+  .border-stone-100 {
+    border-color: var(--color-stone-100);
+  }
+  .border-stone-100\/50 {
+    border-color: color-mix(in srgb, oklch(97% 0.001 106.424) 50%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-stone-100) 50%, transparent);
+    }
+  }
+  .border-stone-100\/60 {
+    border-color: color-mix(in srgb, oklch(97% 0.001 106.424) 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-stone-100) 60%, transparent);
+    }
+  }
+  .border-stone-100\/80 {
+    border-color: color-mix(in srgb, oklch(97% 0.001 106.424) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-stone-100) 80%, transparent);
+    }
+  }
+  .border-stone-200 {
+    border-color: var(--color-stone-200);
+  }
+  .border-stone-200\/60 {
+    border-color: color-mix(in srgb, oklch(92.3% 0.003 48.717) 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-stone-200) 60%, transparent);
+    }
+  }
+  .border-stone-800 {
+    border-color: var(--color-stone-800);
+  }
+  .border-stone-800\/80 {
+    border-color: color-mix(in srgb, oklch(26.8% 0.007 34.298) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-stone-800) 80%, transparent);
+    }
+  }
+  .border-stone-900 {
+    border-color: var(--color-stone-900);
+  }
+  .border-yellow-700\/80 {
+    border-color: color-mix(in srgb, oklch(55.4% 0.135 66.442) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-yellow-700) 80%, transparent);
+    }
+  }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
+  }
+  .bg-amber-50\/50 {
+    background-color: color-mix(in srgb, oklch(98.7% 0.022 95.277) 50%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
+    }
+  }
+  .bg-amber-100 {
+    background-color: var(--color-amber-100);
+  }
+  .bg-amber-100\/50 {
+    background-color: color-mix(in srgb, oklch(96.2% 0.059 95.617) 50%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-100) 50%, transparent);
+    }
+  }
+  .bg-amber-200\/40 {
+    background-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-200) 40%, transparent);
+    }
+  }
+  .bg-amber-200\/60 {
+    background-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-200) 60%, transparent);
+    }
+  }
+  .bg-amber-400 {
+    background-color: var(--color-amber-400);
+  }
+  .bg-amber-400\/20 {
+    background-color: color-mix(in srgb, oklch(82.8% 0.189 84.429) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-400) 20%, transparent);
+    }
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
+  .bg-amber-500\/5 {
+    background-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 5%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-500) 5%, transparent);
+    }
+  }
+  .bg-amber-500\/10 {
+    background-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 10%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-500) 10%, transparent);
+    }
+  }
+  .bg-amber-500\/20 {
+    background-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-500) 20%, transparent);
+    }
+  }
+  .bg-amber-600 {
+    background-color: var(--color-amber-600);
+  }
+  .bg-amber-600\/90 {
+    background-color: color-mix(in srgb, oklch(66.6% 0.179 58.318) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-600) 90%, transparent);
+    }
+  }
+  .bg-amber-700 {
+    background-color: var(--color-amber-700);
+  }
+  .bg-amber-950\/20 {
+    background-color: color-mix(in srgb, oklch(27.9% 0.077 45.635) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-950) 20%, transparent);
+    }
+  }
+  .bg-emerald-500 {
+    background-color: var(--color-emerald-500);
+  }
+  .bg-emerald-600 {
+    background-color: var(--color-emerald-600);
+  }
+  .bg-emerald-950\/85 {
+    background-color: color-mix(in srgb, oklch(26.2% 0.051 172.552) 85%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-emerald-950) 85%, transparent);
+    }
+  }
+  .bg-orange-400 {
+    background-color: var(--color-orange-400);
+  }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
+  .bg-red-600\/80 {
+    background-color: color-mix(in srgb, oklch(57.7% 0.245 27.325) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-red-600) 80%, transparent);
+    }
+  }
+  .bg-red-700\/90 {
+    background-color: color-mix(in srgb, oklch(50.5% 0.213 27.518) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-red-700) 90%, transparent);
+    }
+  }
+  .bg-red-950\/70 {
+    background-color: color-mix(in srgb, oklch(25.8% 0.092 26.042) 70%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-red-950) 70%, transparent);
+    }
+  }
+  .bg-stone-50 {
+    background-color: var(--color-stone-50);
+  }
+  .bg-stone-100 {
+    background-color: var(--color-stone-100);
+  }
+  .bg-stone-100\/90 {
+    background-color: color-mix(in srgb, oklch(97% 0.001 106.424) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-stone-100) 90%, transparent);
+    }
+  }
+  .bg-stone-800 {
+    background-color: var(--color-stone-800);
+  }
+  .bg-stone-900 {
+    background-color: var(--color-stone-900);
+  }
+  .bg-stone-900\/60 {
+    background-color: color-mix(in srgb, oklch(21.6% 0.006 56.043) 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-stone-900) 60%, transparent);
+    }
+  }
+  .bg-stone-900\/80 {
+    background-color: color-mix(in srgb, oklch(21.6% 0.006 56.043) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-stone-900) 80%, transparent);
+    }
+  }
+  .bg-stone-900\/90 {
+    background-color: color-mix(in srgb, oklch(21.6% 0.006 56.043) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-stone-900) 90%, transparent);
+    }
+  }
+  .bg-stone-950 {
+    background-color: var(--color-stone-950);
+  }
+  .bg-stone-950\/45 {
+    background-color: color-mix(in srgb, oklch(14.7% 0.004 49.25) 45%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-stone-950) 45%, transparent);
+    }
+  }
+  .bg-stone-950\/90 {
+    background-color: color-mix(in srgb, oklch(14.7% 0.004 49.25) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-stone-950) 90%, transparent);
+    }
+  }
+  .bg-transparent {
+    background-color: transparent;
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .bg-white\/90 {
+    background-color: color-mix(in srgb, #fff 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-white) 90%, transparent);
+    }
+  }
+  .bg-yellow-300\/60 {
+    background-color: color-mix(in srgb, oklch(90.5% 0.182 98.111) 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-yellow-300) 60%, transparent);
+    }
+  }
+  .bg-yellow-400\/40 {
+    background-color: color-mix(in srgb, oklch(85.2% 0.199 91.936) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-yellow-400) 40%, transparent);
+    }
+  }
+  .bg-yellow-600 {
+    background-color: var(--color-yellow-600);
+  }
+  .bg-gradient-to-br {
+    --tw-gradient-position: to bottom right in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .bg-gradient-to-r {
+    --tw-gradient-position: to right in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .bg-gradient-to-t {
+    --tw-gradient-position: to top in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .bg-\[radial-gradient\(\#b45309_1\.5px\,transparent_1\.5px\)\] {
+    background-image: radial-gradient(#b45309 1.5px,transparent 1.5px);
+  }
+  .from-amber-500 {
+    --tw-gradient-from: var(--color-amber-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-stone-950 {
+    --tw-gradient-from: var(--color-stone-950);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-stone-950\/80 {
+    --tw-gradient-from: color-mix(in srgb, oklch(14.7% 0.004 49.25) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-gradient-from: color-mix(in oklab, var(--color-stone-950) 80%, transparent);
+    }
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .via-stone-950\/20 {
+    --tw-gradient-via: color-mix(in srgb, oklch(14.7% 0.004 49.25) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-gradient-via: color-mix(in oklab, var(--color-stone-950) 20%, transparent);
+    }
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+  .via-stone-950\/40 {
+    --tw-gradient-via: color-mix(in srgb, oklch(14.7% 0.004 49.25) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-gradient-via: color-mix(in oklab, var(--color-stone-950) 40%, transparent);
+    }
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+  .via-transparent {
+    --tw-gradient-via: transparent;
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+  .to-amber-600 {
+    --tw-gradient-to: var(--color-amber-600);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-stone-900 {
+    --tw-gradient-to: var(--color-stone-900);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-transparent {
+    --tw-gradient-to: transparent;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .\[background-size\:12px_12px\] {
+    background-size: 12px 12px;
+  }
+  .fill-current {
+    fill: currentcolor;
+  }
+  .stroke-\[2\.5\] {
+    stroke-width: 2.5;
+  }
+  .stroke-\[3\] {
+    stroke-width: 3;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
+  .p-1 {
+    padding: var(--spacing);
+  }
+  .p-1\.5 {
+    padding: calc(var(--spacing) * 1.5);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-2\.5 {
+    padding: calc(var(--spacing) * 2.5);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-3\.5 {
+    padding: calc(var(--spacing) * 3.5);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+  .p-4\.5 {
+    padding: calc(var(--spacing) * 4.5);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+  .p-12 {
+    padding: calc(var(--spacing) * 12);
+  }
+  .px-1 {
+    padding-inline: var(--spacing);
+  }
+  .px-1\.5 {
+    padding-inline: calc(var(--spacing) * 1.5);
+  }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
+  .px-2\.5 {
+    padding-inline: calc(var(--spacing) * 2.5);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-3\.5 {
+    padding-inline: calc(var(--spacing) * 3.5);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .py-0\.5 {
+    padding-block: calc(var(--spacing) * 0.5);
+  }
+  .py-1 {
+    padding-block: var(--spacing);
+  }
+  .py-1\.5 {
+    padding-block: calc(var(--spacing) * 1.5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+  .py-2\.5 {
+    padding-block: calc(var(--spacing) * 2.5);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+  .pt-1 {
+    padding-top: var(--spacing);
+  }
+  .pt-2 {
+    padding-top: calc(var(--spacing) * 2);
+  }
+  .pt-2\.5 {
+    padding-top: calc(var(--spacing) * 2.5);
+  }
+  .pt-3 {
+    padding-top: calc(var(--spacing) * 3);
+  }
+  .pt-4 {
+    padding-top: calc(var(--spacing) * 4);
+  }
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
+  }
+  .pr-1 {
+    padding-right: var(--spacing);
+  }
+  .pr-4 {
+    padding-right: calc(var(--spacing) * 4);
+  }
+  .pb-1 {
+    padding-bottom: var(--spacing);
+  }
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
+  }
+  .pb-3 {
+    padding-bottom: calc(var(--spacing) * 3);
+  }
+  .pb-16 {
+    padding-bottom: calc(var(--spacing) * 16);
+  }
+  .pl-0 {
+    padding-left: 0;
+  }
+  .pl-11 {
+    padding-left: calc(var(--spacing) * 11);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+  .text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+  .text-\[9\.5px\] {
+    font-size: 9.5px;
+  }
+  .text-\[9px\] {
+    font-size: 9px;
+  }
+  .text-\[10\.5px\] {
+    font-size: 10.5px;
+  }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
+  .text-\[11px\] {
+    font-size: 11px;
+  }
+  .leading-none {
+    --tw-leading: 1;
+    line-height: 1;
+  }
+  .leading-normal {
+    --tw-leading: var(--leading-normal);
+    line-height: var(--leading-normal);
+  }
+  .leading-relaxed {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
+  }
+  .leading-tight {
+    --tw-leading: var(--leading-tight);
+    line-height: var(--leading-tight);
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
+  .font-normal {
+    --tw-font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-normal);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .tracking-tight {
+    --tw-tracking: var(--tracking-tight);
+    letter-spacing: var(--tracking-tight);
+  }
+  .tracking-tighter {
+    --tw-tracking: var(--tracking-tighter);
+    letter-spacing: var(--tracking-tighter);
+  }
+  .tracking-wide {
+    --tw-tracking: var(--tracking-wide);
+    letter-spacing: var(--tracking-wide);
+  }
+  .tracking-wider {
+    --tw-tracking: var(--tracking-wider);
+    letter-spacing: var(--tracking-wider);
+  }
+  .tracking-widest {
+    --tw-tracking: var(--tracking-widest);
+    letter-spacing: var(--tracking-widest);
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .text-amber-300 {
+    color: var(--color-amber-300);
+  }
+  .text-amber-300\/95 {
+    color: color-mix(in srgb, oklch(87.9% 0.169 91.605) 95%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-amber-300) 95%, transparent);
+    }
+  }
+  .text-amber-400 {
+    color: var(--color-amber-400);
+  }
+  .text-amber-500 {
+    color: var(--color-amber-500);
+  }
+  .text-amber-600 {
+    color: var(--color-amber-600);
+  }
+  .text-amber-700 {
+    color: var(--color-amber-700);
+  }
+  .text-amber-800 {
+    color: var(--color-amber-800);
+  }
+  .text-amber-900 {
+    color: var(--color-amber-900);
+  }
+  .text-amber-950 {
+    color: var(--color-amber-950);
+  }
+  .text-emerald-400 {
+    color: var(--color-emerald-400);
+  }
+  .text-emerald-600 {
+    color: var(--color-emerald-600);
+  }
+  .text-lime-400 {
+    color: var(--color-lime-400);
+  }
+  .text-red-300 {
+    color: var(--color-red-300);
+  }
+  .text-red-400 {
+    color: var(--color-red-400);
+  }
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
+  .text-red-600 {
+    color: var(--color-red-600);
+  }
+  .text-rose-500 {
+    color: var(--color-rose-500);
+  }
+  .text-stone-100 {
+    color: var(--color-stone-100);
+  }
+  .text-stone-200 {
+    color: var(--color-stone-200);
+  }
+  .text-stone-300 {
+    color: var(--color-stone-300);
+  }
+  .text-stone-400 {
+    color: var(--color-stone-400);
+  }
+  .text-stone-400\/80 {
+    color: color-mix(in srgb, oklch(70.9% 0.01 56.259) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-stone-400) 80%, transparent);
+    }
+  }
+  .text-stone-500 {
+    color: var(--color-stone-500);
+  }
+  .text-stone-600 {
+    color: var(--color-stone-600);
+  }
+  .text-stone-700 {
+    color: var(--color-stone-700);
+  }
+  .text-stone-800 {
+    color: var(--color-stone-800);
+  }
+  .text-stone-900 {
+    color: var(--color-stone-900);
+  }
+  .text-stone-950 {
+    color: var(--color-stone-950);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .lowercase {
+    text-transform: lowercase;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .placeholder-stone-400 {
+    &::placeholder {
+      color: var(--color-stone-400);
+    }
+  }
+  .opacity-0 {
+    opacity: 0%;
+  }
+  .opacity-30 {
+    opacity: 30%;
+  }
+  .opacity-40 {
+    opacity: 40%;
+  }
+  .opacity-65 {
+    opacity: 65%;
+  }
+  .opacity-70 {
+    opacity: 70%;
+  }
+  .opacity-75 {
+    opacity: 75%;
+  }
+  .opacity-80 {
+    opacity: 80%;
+  }
+  .opacity-90 {
+    opacity: 90%;
+  }
+  .opacity-95 {
+    opacity: 95%;
+  }
+  .opacity-100 {
+    opacity: 100%;
+  }
+  .mix-blend-multiply {
+    mix-blend-mode: multiply;
+  }
+  .mix-blend-screen {
+    mix-blend-mode: screen;
+  }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-inner {
+    --tw-shadow: inset 0 2px 4px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-md {
+    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-sm {
+    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-xl {
+    --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-xs {
+    --tw-shadow: 0 1px 2px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ring {
+    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ring-1 {
+    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ring-2 {
+    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ring-amber-400 {
+    --tw-ring-color: var(--color-amber-400);
+  }
+  .ring-yellow-400\/20 {
+    --tw-ring-color: color-mix(in srgb, oklch(85.2% 0.199 91.936) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-ring-color: color-mix(in oklab, var(--color-yellow-400) 20%, transparent);
+    }
+  }
+  .blur-2xl {
+    --tw-blur: blur(var(--blur-2xl));
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .blur-xl {
+    --tw-blur: blur(var(--blur-xl));
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .brightness-75 {
+    --tw-brightness: brightness(75%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .brightness-\[0\.34\] {
+    --tw-brightness: brightness(0.34);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .contrast-105 {
+    --tw-contrast: contrast(105%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .contrast-\[1\.05\] {
+    --tw-contrast: contrast(1.05);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .drop-shadow {
+    --tw-drop-shadow-size: drop-shadow(0 1px 2px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.1))) drop-shadow(0 1px 1px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.06)));
+    --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow( 0 1px 1px rgb(0 0 0 / 0.06));
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .drop-shadow-\[0_2px_4px_rgba\(0\,0\,0\,0\.5\)\] {
+    --tw-drop-shadow-size: drop-shadow(0 2px 4px var(--tw-drop-shadow-color, rgba(0,0,0,0.5)));
+    --tw-drop-shadow: var(--tw-drop-shadow-size);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .drop-shadow-lg {
+    --tw-drop-shadow-size: drop-shadow(0 4px 4px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.15)));
+    --tw-drop-shadow: drop-shadow(var(--drop-shadow-lg));
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .filter {
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .backdrop-blur-xs {
+    --tw-backdrop-blur: blur(var(--blur-xs));
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
+  .transition {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .transition-transform {
+    transition-property: transform, translate, scale, rotate;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .duration-200 {
+    --tw-duration: 200ms;
+    transition-duration: 200ms;
+  }
+  .duration-300 {
+    --tw-duration: 300ms;
+    transition-duration: 300ms;
+  }
+  .duration-500 {
+    --tw-duration: 500ms;
+    transition-duration: 500ms;
+  }
+  .duration-700 {
+    --tw-duration: 700ms;
+    transition-duration: 700ms;
+  }
+  .duration-1000 {
+    --tw-duration: 1000ms;
+    transition-duration: 1000ms;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
+  }
+  .select-none {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .group-hover\:scale-110 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        --tw-scale-x: 110%;
+        --tw-scale-y: 110%;
+        --tw-scale-z: 110%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .group-hover\:animate-bounce {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        animation: var(--animate-bounce);
+      }
+    }
+  }
+  .group-hover\:text-amber-600 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        color: var(--color-amber-600);
+      }
+    }
+  }
+  .selection\:bg-amber-400 {
+    & *::selection {
+      background-color: var(--color-amber-400);
+    }
+    &::selection {
+      background-color: var(--color-amber-400);
+    }
+  }
+  .selection\:text-amber-950 {
+    & *::selection {
+      color: var(--color-amber-950);
+    }
+    &::selection {
+      color: var(--color-amber-950);
+    }
+  }
+  .hover\:scale-105 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 105%;
+        --tw-scale-y: 105%;
+        --tw-scale-z: 105%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .hover\:scale-110 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 110%;
+        --tw-scale-y: 110%;
+        --tw-scale-z: 110%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .hover\:scale-\[1\.01\] {
+    &:hover {
+      @media (hover: hover) {
+        scale: 1.01;
+      }
+    }
+  }
+  .hover\:scale-\[1\.02\] {
+    &:hover {
+      @media (hover: hover) {
+        scale: 1.02;
+      }
+    }
+  }
+  .hover\:border-amber-200 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--color-amber-200);
+      }
+    }
+  }
+  .hover\:bg-amber-400 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-amber-400);
+      }
+    }
+  }
+  .hover\:bg-emerald-500 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-emerald-500);
+      }
+    }
+  }
+  .hover\:bg-stone-50 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-stone-50);
+      }
+    }
+  }
+  .hover\:bg-stone-100 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-stone-100);
+      }
+    }
+  }
+  .hover\:bg-stone-100\/60 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(97% 0.001 106.424) 60%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-stone-100) 60%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-stone-200\/50 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(92.3% 0.003 48.717) 50%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-stone-200) 50%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-stone-800 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-stone-800);
+      }
+    }
+  }
+  .hover\:bg-stone-900 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-stone-900);
+      }
+    }
+  }
+  .hover\:bg-white {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-white);
+      }
+    }
+  }
+  .hover\:text-amber-200 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-amber-200);
+      }
+    }
+  }
+  .hover\:text-red-500 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-red-500);
+      }
+    }
+  }
+  .hover\:text-stone-600 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-stone-600);
+      }
+    }
+  }
+  .hover\:text-stone-800 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-stone-800);
+      }
+    }
+  }
+  .hover\:text-white {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-white);
+      }
+    }
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .hover\:shadow-md {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      }
+    }
+  }
+  .focus\:ring-1 {
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .focus\:ring-2 {
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .focus\:ring-amber-400 {
+    &:focus {
+      --tw-ring-color: var(--color-amber-400);
+    }
+  }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
+    }
+  }
+  .active\:scale-95 {
+    &:active {
+      --tw-scale-x: 95%;
+      --tw-scale-y: 95%;
+      --tw-scale-z: 95%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
+  .sm\:flex {
+    @media (width >= 40rem) {
+      display: flex;
+    }
+  }
+  .sm\:inline-block {
+    @media (width >= 40rem) {
+      display: inline-block;
+    }
+  }
+  .sm\:grid-cols-2 {
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .sm\:grid-cols-3 {
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .sm\:flex-wrap {
+    @media (width >= 40rem) {
+      flex-wrap: wrap;
+    }
+  }
+  .md\:col-span-5 {
+    @media (width >= 48rem) {
+      grid-column: span 5 / span 5;
+    }
+  }
+  .md\:col-span-7 {
+    @media (width >= 48rem) {
+      grid-column: span 7 / span 7;
+    }
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
+  .md\:h-6 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 6);
+    }
+  }
+  .md\:h-52 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 52);
+    }
+  }
+  .md\:h-64 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 64);
+    }
+  }
+  .md\:min-h-\[420px\] {
+    @media (width >= 48rem) {
+      min-height: 420px;
+    }
+  }
+  .md\:w-6 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 6);
+    }
+  }
+  .md\:w-64 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 64);
+    }
+  }
+  .md\:w-auto {
+    @media (width >= 48rem) {
+      width: auto;
+    }
+  }
+  .md\:max-w-md {
+    @media (width >= 48rem) {
+      max-width: var(--container-md);
+    }
+  }
+  .md\:grid-cols-2 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-3 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-4 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-12 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+  }
+  .md\:flex-row {
+    @media (width >= 48rem) {
+      flex-direction: row;
+    }
+  }
+  .md\:justify-start {
+    @media (width >= 48rem) {
+      justify-content: flex-start;
+    }
+  }
+  .md\:gap-4 {
+    @media (width >= 48rem) {
+      gap: calc(var(--spacing) * 4);
+    }
+  }
+  .md\:py-16 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 16);
+    }
+  }
+  .md\:pt-6 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 6);
+    }
+  }
+  .md\:pb-0 {
+    @media (width >= 48rem) {
+      padding-bottom: 0;
+    }
+  }
+  .md\:pl-4 {
+    @media (width >= 48rem) {
+      padding-left: calc(var(--spacing) * 4);
+    }
+  }
+  .md\:text-left {
+    @media (width >= 48rem) {
+      text-align: left;
+    }
+  }
+  .md\:text-2xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .md\:text-3xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .md\:text-6xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-6xl);
+      line-height: var(--tw-leading, var(--text-6xl--line-height));
+    }
+  }
+  .md\:text-lg {
+    @media (width >= 48rem) {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
+    }
+  }
+  .md\:text-sm {
+    @media (width >= 48rem) {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
+  .md\:text-xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .lg\:col-span-4 {
+    @media (width >= 64rem) {
+      grid-column: span 4 / span 4;
+    }
+  }
+  .lg\:col-span-8 {
+    @media (width >= 64rem) {
+      grid-column: span 8 / span 8;
+    }
+  }
+  .lg\:grid-cols-12 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+  }
+  .dark\:bg-amber-100 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-amber-100);
+    }
+  }
+}
+@layer utilities {
+  .desi-glow {
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.2);
+  }
+  .desi-glow-red {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.4);
+  }
+  .urdu-text {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.5);
+}
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-scale-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-scale-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-scale-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-gradient-position {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-from {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-via {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-to {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-stops {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-via-stops {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-from-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --tw-gradient-via-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 50%;
+}
+@property --tw-gradient-to-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-scale-z: 1;
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
+      --tw-space-y-reverse: 0;
+      --tw-border-style: solid;
+      --tw-gradient-position: initial;
+      --tw-gradient-from: #0000;
+      --tw-gradient-via: #0000;
+      --tw-gradient-to: #0000;
+      --tw-gradient-stops: initial;
+      --tw-gradient-via-stops: initial;
+      --tw-gradient-from-position: 0%;
+      --tw-gradient-via-position: 50%;
+      --tw-gradient-to-position: 100%;
+      --tw-leading: initial;
+      --tw-font-weight: initial;
+      --tw-tracking: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
+      --tw-backdrop-blur: initial;
+      --tw-backdrop-brightness: initial;
+      --tw-backdrop-contrast: initial;
+      --tw-backdrop-grayscale: initial;
+      --tw-backdrop-hue-rotate: initial;
+      --tw-backdrop-invert: initial;
+      --tw-backdrop-opacity: initial;
+      --tw-backdrop-saturate: initial;
+      --tw-backdrop-sepia: initial;
+      --tw-duration: initial;
+    }
+  }
+}
+</style></head>
+  <body>
+    <div id="root"><div id="hotel_applet_root" class="min-h-screen bg-amber-50 text-stone-800 font-sans leading-relaxed selection:bg-amber-400 selection:text-amber-950 pb-16 antialiased"><div id="cart-notification" class="fixed top-6 left-1/2 -translate-x-1/2 z-50 bg-stone-900 text-amber-300 px-6 py-3 rounded-full flex items-center gap-2 shadow-2xl transition-all duration-300 transform pointer-events-none text-sm font-semibold border border-amber-500/20 opacity-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-5 h-5 text-amber-500 animate-pulse animate-duration-1000" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg><span>Garam Garam slice added to basket! 🍕</span></div><header class="relative bg-stone-950 text-white min-h-[360px] md:min-h-[420px] flex flex-col justify-between overflow-hidden"><div class="absolute inset-0 z-0"><img alt="Desi Pizza Header Logo" referrerpolicy="no-referrer" class="w-full h-full object-cover transform scale-105 filter brightness-[0.34] select-none contrast-[1.05]" src="./desi_pizza_hero_1781781893038.jpg"><div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent"></div><div class="absolute inset-0 bg-gradient-to-r from-stone-950/80 via-transparent to-transparent"></div></div><div class="relative z-10 w-full max-w-7xl mx-auto px-4 pt-4 md:pt-6 flex flex-wrap gap-4 items-center justify-between"><div class="flex items-center gap-3"><span class="bg-amber-500 text-stone-950 font-black text-xl md:text-2xl px-3 py-1.5 rounded-lg rotate-[-2deg] shadow-lg border border-amber-300 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat w-5 h-5 md:w-6 md:h-6" aria-hidden="true"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path><path d="M6 17h12"></path></svg> Desi Pizza</span><span class="hidden sm:inline-block text-xs bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2.5 py-1 rounded-full font-mono">EST. 2026</span></div><div class="flex items-center gap-3 ml-auto"><div id="language_pills" class="flex bg-stone-900/90 rounded-full p-1 border border-amber-500/30 shadow-md"><button type="button" class="px-3 py-1.5 rounded-full text-[11px] font-black transition-all cursor-pointer bg-amber-500 text-stone-950 font-black scale-105 shadow-sm">English</button><button type="button" class="px-3 py-1.5 rounded-full text-[11px] font-black transition-all cursor-pointer text-stone-300 hover:text-amber-200">اردو</button><button type="button" class="px-3 py-1.5 rounded-full text-[11px] font-black transition-all cursor-pointer text-stone-300 hover:text-amber-200">Roman</button></div><button id="header_quick_basket" class="relative bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold px-4 py-2 rounded-full transition-all flex items-center gap-2 shadow-md hover:scale-105 active:scale-95"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag w-4 h-4" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg><span class="text-xs md:text-sm">Thaal</span><span class="absolute -top-1.5 -right-1.5 bg-red-600 text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold animate-bounce shadow-md">9</span></button></div></div><div class="relative z-10 w-full max-w-4xl mx-auto px-4 py-10 md:py-16 text-center"><div class="space-y-4" style="opacity: 1; transform: none;"><h1 class="text-4xl md:text-6xl font-display font-extrabold tracking-tight text-white drop-shadow-lg leading-tight uppercase">Desi Pizza Restaurant</h1><p class="text-amber-400 font-display text-lg md:text-2xl font-semibold tracking-wide max-w-2xl mx-auto drop-shadow">Spicy Tandoori Magic, Fresh Tandoor Naan Crust!</p><p class="text-stone-300 font-serif text-sm md:text-lg italic opacity-95">"سوادی بوٹیاں، تندوری خوشبو، اور پیزا کا تڑکہ!"</p><div class="inline-flex flex-wrap items-center justify-center gap-2 bg-stone-900/80 border border-stone-800 px-4 py-2.5 rounded-2xl max-w-lg mx-auto"><span class="text-xs text-stone-400 font-semibold">Spice Meter / تیزی مسالہ:</span><div class="flex gap-1.5"><button id="spice_meter_btn_1" class="text-xs px-3 py-1 rounded-full font-medium transition-all bg-stone-800 text-stone-400 hover:text-white">Mild / میاں والی ہلکا</button><button id="spice_meter_btn_2" class="text-xs px-3 py-1 rounded-full font-medium transition-all bg-amber-500 text-stone-950 font-bold scale-105">Medium Spicy / دیسی مزیدار</button><button id="spice_meter_btn_3" class="text-xs px-3 py-1 rounded-full font-medium transition-all bg-stone-800 text-stone-400 hover:text-white">Extreme / لاہوری بمبوکا! 🌶️🌶️</button></div></div></div></div><div class="relative z-10 bg-stone-900/90 border-t border-stone-800/80 py-1.5 px-4"><div class="max-w-7xl mx-auto flex items-center justify-center gap-2 md:gap-4 flex-wrap"><button id="tab_menu_btn" class="flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm transition-all focus:outline-none bg-amber-500 text-stone-950 shadow-md"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils-crossed w-4 h-4" aria-hidden="true"><path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"></path><path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"></path><path d="m2.1 21.8 6.4-6.3"></path><path d="m19 5-7 7"></path></svg><span>Dastarkhwan (Menu)</span></button><button id="tab_custom_btn" class="flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm transition-all focus:outline-none relative text-stone-300 hover:bg-stone-800 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat w-4 h-4" aria-hidden="true"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path><path d="M6 17h12"></path></svg><span>Pizza Lab (Banaen Apni!)</span><span class="absolute -top-1 -right-2 bg-red-600 text-[9px] text-white font-black px-1.5 py-0.5 rounded-full tracking-tighter uppercase animate-pulse">Lab</span></button><button id="tab_reviews_btn" class="flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm transition-all focus:outline-none text-stone-300 hover:bg-stone-800 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square w-4 h-4" aria-hidden="true"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg><span>Baithak (Reviews)</span></button></div></div></header><main class="max-w-7xl mx-auto px-4 mt-8 grid grid-cols-1 lg:grid-cols-12 gap-8 relative"><section class="lg:col-span-8 space-y-8"><div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-stone-900 text-white p-4.5 rounded-3xl border border-stone-800 shadow-xs relative overflow-hidden"><div class="absolute top-0 right-0 w-32 h-32 bg-amber-500/5 rounded-full blur-2xl pointer-events-none"></div><div class="space-y-0.5 text-center md:text-left"><span class="text-[10px] text-stone-400 font-bold block uppercase tracking-wider">🔥 Tandoor Temp</span><div class="flex items-center justify-center md:justify-start gap-1"><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span><span class="font-mono font-black text-xs text-red-400">450°C Clay Oven</span></div></div><div class="space-y-0.5 text-center md:text-left border-l border-stone-800"><span class="text-[10px] text-stone-400 font-bold block uppercase tracking-wider pl-0 md:pl-4">🥖 Naan Batches</span><div class="flex items-center justify-center md:justify-start gap-1 pl-0 md:pl-4"><span class="w-1.5 h-1.5 rounded-full bg-orange-400"></span><span class="font-mono font-black text-xs text-stone-100 font-mono">Hot &amp; Fresh</span></div></div><div class="space-y-0.5 text-center md:text-left border-l border-stone-800"><span class="text-[10px] text-stone-400 font-bold block uppercase tracking-wider pl-0 md:pl-4">🛋️ Table Seats</span><div class="flex items-center justify-center md:justify-start gap-1 pl-0 md:pl-4"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span><span class="font-mono font-black text-xs text-emerald-400">9 Active Sittings</span></div></div><div class="space-y-0.5 text-center md:text-left border-l border-stone-800"><span class="text-[10px] text-stone-400 font-bold block uppercase tracking-wider pl-0 md:pl-4">🛵 Wait Time</span><div class="flex items-center justify-center md:justify-start gap-1 pl-0 md:pl-4"><span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span><span class="font-mono font-black text-xs text-amber-300">18 - 25 Mins</span></div></div></div><div id="search_and_filter_card" class="bg-white p-4 rounded-3xl shadow-sm border border-stone-100 flex flex-col md:flex-row gap-4 items-center justify-between"><div class="relative w-full md:max-w-md"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-4 top-1/2 -translate-y-1/2 text-stone-400 w-5 h-5 pointer-events-none" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><input placeholder="Search regional specials (e.g., Tikka, Kabab, Paneer)..." class="w-full pl-11 pr-4 py-2.5 bg-stone-50 rounded-2xl text-stone-800 border-none outline-none focus:ring-2 focus:ring-amber-400 font-medium text-sm transition-all" type="text" value=""></div><div class="flex gap-2 w-full md:w-auto overflow-x-auto pb-1 md:pb-0"><button id="category_all" class="text-xs font-bold px-4 py-2 rounded-xl border transition-all whitespace-nowrap bg-stone-900 border-stone-900 text-amber-300">🌶️ All Flavors / سب</button><button id="category_spicy" class="text-xs font-bold px-4 py-2 rounded-xl border transition-all whitespace-nowrap bg-white border-stone-200 text-stone-600 hover:bg-stone-50">🔥 Spicy / مسالے دار</button><button id="category_veg" class="text-xs font-bold px-4 py-2 rounded-xl border transition-all whitespace-nowrap bg-white border-stone-200 text-stone-600 hover:bg-stone-50">🌿 Vegetarian / پنیر مکس</button></div></div><div class="space-y-6" style="opacity: 1; transform: none;"><div class="flex items-center justify-between"><div><h2 class="text-2xl md:text-3xl font-display font-extrabold text-stone-900 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils-crossed w-6 h-6 text-amber-500" aria-hidden="true"><path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"></path><path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"></path><path d="m2.1 21.8 6.4-6.3"></path><path d="m19 5-7 7"></path></svg>Khas Desi Pizzas</h2><p class="text-sm text-stone-500 font-medium">Hand-kneaded dough baked like naans, loaded with charcoal-grilled spicy botis</p></div><div class="hidden md:block"><button id="action_surprise_me" class="bg-stone-900 hover:bg-stone-800 text-amber-400 font-bold py-2.5 px-4 rounded-xl text-xs flex items-center gap-2 group cursor-pointer transition-all border border-stone-800"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-amber-500 animate-spin animate-duration-3000 group-hover:scale-110" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg><span>Surprise Me!</span></button></div></div><div id="food_category_tabs" class="grid grid-cols-2 sm:flex sm:flex-wrap gap-2.5 bg-stone-50 p-2 rounded-3xl border border-stone-100"><button class="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-amber-500 border-amber-500 text-stone-950 shadow-sm"><span class="text-base">🍽️</span><div class="text-left leading-none"><div class="text-[9px] uppercase font-bold tracking-wider opacity-65">All Thaal</div><div class="font-display text-xs font-bold mt-0.5">سب کچھ</div></div></button><button class="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-white border-stone-200 text-stone-700 hover:bg-stone-50"><span class="text-base">🍕</span><div class="text-left leading-none"><div class="text-[9px] uppercase font-bold tracking-wider opacity-65">Royale Pizzas</div><div class="font-display text-xs font-bold mt-0.5">شاہی پیزا</div></div></button><button class="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-white border-stone-200 text-stone-700 hover:bg-stone-50"><span class="text-base">🍢</span><div class="text-left leading-none"><div class="text-[9px] uppercase font-bold tracking-wider opacity-65">Appetizers</div><div class="font-display text-xs font-bold mt-0.5">کباب و رول</div></div></button><button class="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-white border-stone-200 text-stone-700 hover:bg-stone-50"><span class="text-base">🥤</span><div class="text-left leading-none"><div class="text-[9px] uppercase font-bold tracking-wider opacity-65">Sweet Drinks</div><div class="font-display text-xs font-bold mt-0.5">ٹھنڈی لسی و جوس</div></div></button><button class="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-white border-stone-200 text-stone-700 hover:bg-stone-50"><span class="text-base">🍧</span><div class="text-left leading-none"><div class="text-[9px] uppercase font-bold tracking-wider opacity-65">Desserts</div><div class="font-display text-xs font-bold mt-0.5">شیریں میٹھا</div></div></button></div><div class="space-y-4 pt-2"><div class="flex items-center gap-2"><span class="text-xl">🔥</span><div><h3 class="text-lg md:text-xl font-display font-extrabold text-stone-900 leading-none">Exclusive Hotel Combo Platters</h3><p class="text-xs text-stone-500 font-medium mt-0.5">Huge savings &amp; traditional pairings crafted for gatherings</p></div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><div class="bg-gradient-to-br from-stone-950 to-stone-900 text-white rounded-3xl overflow-hidden border border-amber-500/10 shadow-lg flex flex-col justify-between"><div class="relative h-44 w-full bg-stone-950/45"><img alt="Double Deradar Combo (Dosti Share Platter)" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none brightness-75 filter contrast-105" src="./photo-1513104890138-7c749659a591"><div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent"></div><div class="absolute top-3 left-3 flex flex-wrap gap-1"><span class="bg-amber-500 text-stone-950 text-[9px] font-black uppercase px-2.5 py-0.5 rounded-full shadow-md">Super Value</span><span class="bg-amber-500 text-stone-950 text-[9px] font-black uppercase px-2.5 py-0.5 rounded-full shadow-md">Dosti Favorite</span></div><div class="absolute bottom-3 right-3 bg-amber-500 text-stone-950 font-mono font-black px-3.5 py-1 rounded-xl text-sm shadow-md">Rs. 1750</div></div><div class="p-5 space-y-4 flex-1 flex flex-col justify-between"><div class="space-y-2"><div><h4 class="text-sm font-black text-amber-400">Double Deradar Combo (Dosti Share Platter)</h4><h5 class="text-xs font-bold text-stone-300 font-serif mt-0.5">ڈبل ڈیرہ دار کمبو (دوستی تھال)</h5></div><p class="text-[11px] text-stone-400 leading-relaxed">One Medium Chicken Tikka Pizza + Crispy Samosa Pizza Dippers + Two traditional Chilled Patiala Mango Lassis.</p><p class="text-[11px] text-amber-300/95 font-serif italic">"ایک درمیانہ چکن تکہ پیزا، سموسہ پیزا ڈپرز اور دو گلاس ٹھنڈی پٹیالہ آم کی کلاسک لسی کا شاندار جوڑا۔"</p><div class="pt-2.5 border-t border-stone-800"><span class="text-[10px] text-stone-400 uppercase tracking-widest font-black block mb-1.5">Platter contains:</span><div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-[10px] text-stone-300 font-medium"><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>1x Chicken Tikka Feast (Medium)</span></div><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>1x Samosa Pizza Dippers</span></div><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>2x Patiala Mango Lassi</span></div></div></div></div><button id="add_combo_btn_combo-dosti" class="w-full bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md hover:scale-[1.01] active:scale-95 mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag w-4 h-4 stroke-[2.5]" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg><span>Add Platter to Basket</span></button></div></div><div class="bg-gradient-to-br from-stone-950 to-stone-900 text-white rounded-3xl overflow-hidden border border-amber-500/10 shadow-lg flex flex-col justify-between"><div class="relative h-44 w-full bg-stone-950/45"><img alt="Shehenshah Maharaja Royal Platter" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none brightness-75 filter contrast-105" src="./photo-1565299624946-b28f40a0ae38"><div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent"></div><div class="absolute top-3 left-3 flex flex-wrap gap-1"><span class="bg-amber-500 text-stone-950 text-[9px] font-black uppercase px-2.5 py-0.5 rounded-full shadow-md">Best For 3-4 Persons</span><span class="bg-amber-500 text-stone-950 text-[9px] font-black uppercase px-2.5 py-0.5 rounded-full shadow-md">Royal Treat</span></div><div class="absolute bottom-3 right-3 bg-amber-500 text-stone-950 font-mono font-black px-3.5 py-1 rounded-xl text-sm shadow-md">Rs. 2850</div></div><div class="p-5 space-y-4 flex-1 flex flex-col justify-between"><div class="space-y-2"><div><h4 class="text-sm font-black text-amber-400">Shehenshah Maharaja Royal Platter</h4><h5 class="text-xs font-bold text-stone-300 font-serif mt-0.5">شہنشاہ مہاراجہ شاہی تھال</h5></div><p class="text-[11px] text-stone-400 leading-relaxed">One Large Mutton Karahi Pizza + One Lakhnavi Kabab Roller + One warm Gulab Jamun Sweet slices + Two Lyallpur Mint Margaritas.</p><p class="text-[11px] text-amber-300/95 font-serif italic">"ایک بڑا شاہی دنبہ کڑاہی پیزا، لکھنوی کباب رولر، گلاب جامن سمر ٹریٹ اور دو گلاس منٹ مارگریٹا ٹھنڈا سوڈا۔"</p><div class="pt-2.5 border-t border-stone-800"><span class="text-[10px] text-stone-400 uppercase tracking-widest font-black block mb-1.5">Platter contains:</span><div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-[10px] text-stone-300 font-medium"><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>1x Royal Mutton Karahi (Large)</span></div><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>1x Lakhnavi Kabab Rollers</span></div><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>1x Gulab Jamun Delight</span></div><div class="flex items-center gap-1.5 bg-stone-900/60 p-1.5 rounded-lg border border-stone-850"><span class="text-amber-400 font-bold">✓</span><span>2x Mint Margarita</span></div></div></div></div><button id="add_combo_btn_combo-shehenshah" class="w-full bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md hover:scale-[1.01] active:scale-95 mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag w-4 h-4 stroke-[2.5]" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg><span>Add Platter to Basket</span></button></div></div></div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><div id="pizza_card_chicken-tikka" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Chicken Tikka Feast" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1513104890138-7c749659a591"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Best Seller</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Tandoori Style</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Halal</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700">142</span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Desi Hot</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Chicken Tikka Feast</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1250</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">چکن تکہ فیسٹ</p><p class="text-xs text-stone-500 line-clamp-2">Sizzling charcoal-grilled chicken tikka, marinated in tandoori spices, topped with red onions, fresh green chillies, and a mint yogurt swirl.</p><p class="text-xs text-stone-400 font-serif italic">"کوئلے پر پکا ہوا تندوری مصالحہ دار چکن تکہ، پیاز، ہری مرچیں اور پودینے کی چٹنی کا تڑکہ۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_chicken-tikka" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_chapli-kabab" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Chapli Kabab Fusion" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1593560708920-61dd98c46a4e"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Peshawari Special</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Spicy</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Chef Choice</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700">210</span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Explosive 🔥</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Chapli Kabab Fusion</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1450</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">چپلی کباب فیوژن</p><p class="text-xs text-stone-500 line-clamp-2">Spicy Peshawar-style minced beef patty crumbles, fresh tomatoes, fresh coriander, crushed chillies, and a sprinkle of tangy pomegranate powder.</p><p class="text-xs text-stone-400 font-serif italic">"پشاور کا روایتی پسا ہوا چپلی کباب، ٹماٹر، ہرا دھنیا اور انار دانہ کے چٹ پٹے مصالحے۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_chapli-kabab" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_seekh-kabab" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Seekh Kabab Sizzler" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1628840042765-356cda07504e"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Meaty Premium</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Smoked</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700">98</span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Desi Hot</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Seekh Kabab Sizzler</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1350</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">سیخ کباب سزلر</p><p class="text-xs text-stone-500 line-clamp-2">Flame-grilled chicken/beef seekh kabab slices on dynamic garlic herb base, red onions, sweet bell peppers, and a sprinkle of chat masala.</p><p class="text-xs text-stone-400 font-serif italic">"آگ پر بنے جوسی سیخ کباب کی سلائس، لذیذ لہسن ساس، پیاز، شملہ مرچ اور خاص چاٹ مصالحہ۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_seekh-kabab" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_mutton-karahi-pizza" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Royal Mutton Karahi" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1565299624946-b28f40a0ae38"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Premium King</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Traditional Handi</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Explosive 🔥</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Royal Mutton Karahi</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1790</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">شاہی دنبہ کڑاہی پیزا</p><p class="text-xs text-stone-500 line-clamp-2">Premium shredded slow-cooked mutton, thick savory Karahi gravy base, julienne ginger, fresh green chillies, and melted buttery cheese.</p><p class="text-xs text-stone-400 font-serif italic">"خالص دنبہ کڑاہی کا مصالحہ دار گوشت، باریک کٹی ادرک، ہری مرچیں اور مکھنی پنیر کی کوٹنگ۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_mutton-karahi-pizza" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_butter-chicken" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Butter Chicken Supreme" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1571407970349-bc81e7e96d47"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Creamy</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Kids Friendly</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700">156</span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-amber-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Mild</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Butter Chicken Supreme</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1390</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">بٹر چکن سپریم</p><p class="text-xs text-stone-500 line-clamp-2">Rich, creamy butter tomato sauce base topped with smoky chicken handi strips, caramelized onions, mozzarella, and aromatic kasuri methi.</p><p class="text-xs text-stone-400 font-serif italic">"شاہی مکھن ٹماٹر گریوی، تندوری بوٹی پٹیاں، کیریمل پیاز اور خوشبودار قصوری میتھی کا حسین امتزاج۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_butter-chicken" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_achari-paneer" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Achari Paneer Delight" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1574071318508-1cdbab80d002"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Vegetarian</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Tangy Twist</span><span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">🟢 Veg</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700">74</span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Desi Hot</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Achari Paneer Delight</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1150</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">اچاری پنیر ڈیلائٹ</p><p class="text-xs text-stone-500 line-clamp-2">Tangy pickled paneer cubes (cottage cheese), red onion rings, sliced green chillies, ginger slivers, and spicy coriander mint chutney.</p><p class="text-xs text-stone-400 font-serif italic">"چٹ پٹا اچاری پنیر، پیاز، ہری مرچیں، ادرک اور تازہ ہرا دھنیا پودینہ چٹنی کی چاشنی۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_achari-paneer" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_malai-boti" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Creamy Malai Boti Heaven" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1534308983496-4fabb1a015ee"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Royal Taste</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Creamy &amp; Mild</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700">115</span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-amber-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Mild</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Creamy Malai Boti Heaven</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 1300</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">کریمی ملائی بوٹی ہیون</p><p class="text-xs text-stone-500 line-clamp-2">Melt-in-the-mouth chicken malai boti pieces, creamy garlic base, green cardamom flavor, mild green chillies, and caramelized onions.</p><p class="text-xs text-stone-400 font-serif italic">"منہ میں گھل جانے والی چکن ملائی بوٹی، سفید مکھنی لہسن ساس اور ہلکے مصالحے دارمیکس۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Size Option</span><span class="text-xs text-stone-700 font-bold">Standard Medium</span></div><button id="add_to_cart_btn_malai-boti" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_samosa-chaat-bites" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Samosa Pizza Dippers" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1601050690597-df056fb4ce78"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Quick Crunchy</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Street Special</span><span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">🟢 Veg</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Desi Hot</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Samosa Pizza Dippers</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 450</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">سموسہ پیزا ڈپرز</p><p class="text-xs text-stone-500 line-clamp-2">Crispy tandoori samosa pastry bites stuffed with mild spiced potatoes, sweet tamarind glaze, and melted mozzarella drizzle.</p><p class="text-xs text-stone-400 font-serif italic">"خستہ سموسہ پاپڑی، آلو کا خاص مصالحہ، املی کی چٹنی اور پگھلا ہوا پنیر مکس۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Portion Serving</span><span class="text-xs text-stone-700 font-bold">Fresh Portion</span></div><button id="add_to_cart_btn_samosa-chaat-bites" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_seekh-kabab-rolls" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Lakhnavi Kabab Rollers" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1626132647523-66f5bf380027"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Fulfilling</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Barbecue Twist</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-red-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Desi Hot</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Lakhnavi Kabab Rollers</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 590</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">لکھنوی کباب رولر</p><p class="text-xs text-stone-500 line-clamp-2">Soft buttered tandoori naan rolled with juicy barbecued chicken seekh kabab, cabbage crunch, and mint raita.</p><p class="text-xs text-stone-400 font-serif italic">"لہسن مکھن نان میںلپیٹا ہوا جوسی سرخ چکن سیخ کباب، بند گوبھی اور کلاسک پودینہ چٹنی۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Portion Serving</span><span class="text-xs text-stone-700 font-bold">Fresh Portion</span></div><button id="add_to_cart_btn_seekh-kabab-rolls" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_mango-lassi" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Patiala Mango Lassi" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1546173159-315724a31696"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Royal Drink</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Chilled Summer</span><span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">🟢 Veg</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-amber-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Mild</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Patiala Mango Lassi</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 350</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">پٹیالہ آم کی لسی</p><p class="text-xs text-stone-500 line-clamp-2">Traditional sweet thick yogurt blend with premium Multani mango pulp, topped with sliced saffron almonds and pure cream.</p><p class="text-xs text-stone-400 font-serif italic">"ملتانی آم کا گودا، کلاسک گاڑھا دہی، پستہ اور زعفران سے سجی ہوئی شاہی لسی۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Portion Serving</span><span class="text-xs text-stone-700 font-bold">Chilled Bottle/Mug</span></div><button id="add_to_cart_btn_mango-lassi" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_peshawari-kahwa" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Kashmiri Elaichi Tea" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1576092768241-dec231879fc3"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Warm Sip</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Authentic Kashmiri</span><span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">🟢 Veg</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-amber-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Mild</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Kashmiri Elaichi Tea</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 240</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">کشمیری الائچی چائے</p><p class="text-xs text-stone-500 line-clamp-2">Rich pink herbal tea infused with crushed green cardamoms, star anise, garnished with crushed almonds and pistachios.</p><p class="text-xs text-stone-400 font-serif italic">"گلابی کشمیری کڑک چائے، سبز الائچی کا تڑکہ اور پستہ بادام چورا رونق۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Portion Serving</span><span class="text-xs text-stone-700 font-bold">Chilled Bottle/Mug</span></div><button id="add_to_cart_btn_peshawari-kahwa" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_mint-margarita" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Lyallpur Mint Margarita" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1513558161293-cdaf765ed2fd"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Refreshing</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Digestive Best</span><span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">🟢 Veg</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-amber-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Mild</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Lyallpur Mint Margarita</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 280</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">پودینہ لیموں مارگریٹا</p><p class="text-xs text-stone-500 line-clamp-2">Ultra-refreshing slush made with fresh garden mint leaves, squeezed lemons, black salt, and sparkling ice soda.</p><p class="text-xs text-stone-400 font-serif italic">"باغ کے تازہ پودینے کے پتے، لیموں کا رس، کالا نمک اور ٹھنڈا سوڈا مکس کا جادو۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Portion Serving</span><span class="text-xs text-stone-700 font-bold">Chilled Bottle/Mug</span></div><button id="add_to_cart_btn_mint-margarita" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div><div id="pizza_card_gulab-jamun-delight" class="bg-white rounded-3xl overflow-hidden border border-stone-100 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300 flex flex-col justify-between"><div class="relative h-48 md:h-52 w-full overflow-hidden bg-stone-100"><img alt="Gulab Jamun Sweet Slices" referrerpolicy="no-referrer" class="w-full h-full object-cover select-none transition-all duration-700 hover:scale-105" src="./photo-1587314168485-3236d6710814"><div class="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10"><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Delectable Sweet</span><span class="bg-stone-950/90 text-amber-400 text-[10px] font-mono px-2.5 py-1 rounded-full border border-amber-500/10 backdrop-blur-xs">Mehman Khaas</span><span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">🟢 Veg</span></div><button class="absolute top-3 right-3 bg-white/90 hover:bg-white text-rose-500 p-2 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95 flex items-center justify-center border border-stone-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><span class="text-[10px] font-bold ml-1 text-stone-700"></span></button><div class="absolute bottom-3 right-3 bg-stone-950/90 text-stone-200 text-[10px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame w-3.5 h-3.5 text-amber-500" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg><span>Mild</span></div></div><div class="p-5 flex-1 flex flex-col justify-between space-y-4"><div class="space-y-2"><div class="flex items-start justify-between gap-2"><h3 class="text-lg font-display font-extrabold text-stone-900 group-hover:text-amber-600">Gulab Jamun Sweet Slices</h3><span class="bg-amber-100 dark:bg-amber-100 text-amber-900 font-mono text-sm font-black px-2.5 py-1 rounded-lg">Rs. 650</span></div><p class="text-amber-600 font-display font-bold text-sm tracking-wide">گلاب جامن سمر ٹریٹ</p><p class="text-xs text-stone-500 line-clamp-2">Warm sweet milk dumplings (Gulab Jamun) baked on a sweet Naan crust, topped with sugar syrup, pistachios, and thickened Rabri condensed milk.</p><p class="text-xs text-stone-400 font-serif italic">"میٹھے نان کرسٹ پر گرم کلاسک گلاب جامن کی سلائس، پستہ اور ریوڑی والی ربڑی ساس۔"</p></div><div class="pt-3 border-t border-stone-100 grid grid-cols-2 gap-3 items-center"><div class="flex flex-col"><span class="text-[10px] text-stone-400 font-bold uppercase tracking-wider">Portion Serving</span><span class="text-xs text-stone-700 font-bold">Dulcet Sweet</span></div><button id="add_to_cart_btn_gulab-jamun-delight" class="bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 group cursor-pointer shadow-xs active:scale-95 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3.5 h-3.5 stroke-[3]" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Add to Basket</span></button></div></div></div></div><div class="bg-gradient-to-br from-amber-500 to-amber-600 text-stone-950 p-6 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-sm border border-amber-400/20"><div class="space-y-1 text-center md:text-left"><h3 class="text-lg font-display font-extrabold text-stone-900 flex items-center justify-center md:justify-start gap-1.5 leading-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award w-5 h-5 text-stone-950 animate-bounce" aria-hidden="true"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>Chef's Recommendation</h3><p class="text-sm font-medium opacity-90 max-w-md">Confused? Let chef Shamshad pick a customized surprise for you!</p></div><button id="mobile_surprise_button" class="w-full md:w-auto bg-stone-950 text-amber-300 font-black py-3 px-6 rounded-2xl text-xs hover:bg-stone-900 transition-all uppercase tracking-wide cursor-pointer active:scale-95 flex items-center justify-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-amber-400" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg><span>Surprise Me!</span></button></div></div></section><section class="lg:col-span-4 space-y-6" id="aap-ka-thaal"><div id="standard_cart_container" class="bg-white rounded-3xl p-5 border border-stone-100 shadow-sm space-y-5"><div class="flex justify-between items-center border-b border-stone-100 pb-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag w-5 h-5 text-amber-500" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg><h3 class="font-display font-extrabold text-stone-900 text-lg">Aap Ka Thaal (Basket)</h3></div><button class="text-[10px] text-red-500 font-bold tracking-wider hover:underline">Clear All</button></div><div class="space-y-4"><div class="space-y-2.5 max-h-[280px] overflow-y-auto pr-1"><div id="item_row_0" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Seekh Kabab Sizzler</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">M</span></h4><p class="text-[10px] text-amber-600 font-semibold">سیخ کباب سزلر</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 1350</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_1" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Seekh Kabab Sizzler</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">M</span></h4><p class="text-[10px] text-amber-600 font-semibold">سیخ کباب سزلر</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 1350</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_2" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Royal Mutton Karahi</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">M</span></h4><p class="text-[10px] text-amber-600 font-semibold">شاہی دنبہ کڑاہی پیزا</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 1790</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_3" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Achari Paneer Delight</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">M</span></h4><p class="text-[10px] text-amber-600 font-semibold">اچاری پنیر ڈیلائٹ</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 1150</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_4" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Samosa Pizza Dippers</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">M</span></h4><p class="text-[10px] text-amber-600 font-semibold">سموسہ پیزا ڈپرز</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 450</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_5" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Double Deradar Combo (Dosti Share Platter)</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">F</span></h4><p class="text-[10px] text-amber-600 font-semibold">ڈبل ڈیرہ دار کمبو (دوستی تھال)</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 1750</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_6" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Double Deradar Combo (Dosti Share Platter)</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">F</span></h4><p class="text-[10px] text-amber-600 font-semibold">ڈبل ڈیرہ دار کمبو (دوستی تھال)</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 1750</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_7" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Shehenshah Maharaja Royal Platter</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">F</span></h4><p class="text-[10px] text-amber-600 font-semibold">شہنشاہ مہاراجہ شاہی تھال</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 2850</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div><div id="item_row_8" class="p-3 bg-stone-50 rounded-2xl flex flex-col gap-2 border border-stone-100/50"><div class="flex justify-between items-start gap-2"><div><h4 class="text-xs font-black text-stone-800 flex items-center gap-1"><span class="truncate max-w-[120px]">Gulab Jamun Sweet Slices</span><span class="text-[10px] bg-amber-200/60 text-amber-950 font-bold px-1.5 py-0.5 rounded-md ml-1 text-center scale-95">M</span></h4><p class="text-[10px] text-amber-600 font-semibold">گلاب جامن سمر ٹریٹ</p></div><button class="text-stone-400 hover:text-red-500 p-1 rounded-md transition-all ml-auto focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2 w-3.5 h-3.5" aria-hidden="true"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></div><div class="flex items-center justify-between pt-1 border-t border-stone-100/60"><span class="font-mono text-amber-700 text-xs font-black">Rs. 650</span><div class="flex items-center gap-2.5 bg-white px-2 py-1 rounded-xl shadow-xs border border-stone-100"><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="font-mono text-xs font-bold text-stone-800">1</span><button class="w-5 h-5 rounded-md bg-stone-50 hover:bg-stone-100 flex items-center justify-center text-stone-600 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-3 h-3 text-stone-800" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div></div></div></div><div class="bg-stone-50 p-2.5 rounded-2xl border border-stone-100 flex items-center justify-between gap-2"><input placeholder="Enter Dosti Promo Code (DESI20)" class="bg-transparent text-xs p-1 px-1.5 focus:outline-none placeholder-stone-400 text-stone-800 flex-1 font-semibold uppercase" type="text" value=""><button id="apply_coupon_btn" class="text-xs font-bold py-2 px-3.5 rounded-xl transition-all bg-stone-900 border-none text-amber-300 hover:text-white">Apply</button></div><div class="bg-stone-900 text-stone-100 p-3.5 rounded-2xl border border-stone-800 space-y-1 relative overflow-hidden shadow-xs"><div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div><div class="flex justify-between items-center text-xs font-bold text-amber-400"><span class="flex items-center gap-1">⚜️ Sajawal Coins Club</span><span class="font-mono text-xs bg-amber-400/20 text-amber-300 font-extrabold px-2 py-0.5 rounded-lg border border-amber-500/10">120 Coins</span></div><p class="text-[10px] text-stone-400 leading-normal font-medium">Earn 10% points! Claim free Rs. 200 off for every 100 coins.</p><button type="button" class="w-full mt-2 text-[10.5px] font-black py-1.5 px-3 rounded-xl transition-all cursor-pointer bg-amber-500 text-stone-950 font-black shadow-md border-none">✓ Coins Redeemed (Rs. 200 off!)</button></div><div class="bg-stone-50 p-3 rounded-2xl border border-stone-100 space-y-2 text-xs text-stone-600"><div class="flex justify-between"><span>Subtotal</span><span class="font-mono text-stone-800 font-bold">Rs. 13090</span></div><div class="flex justify-between"><span>Tandoor Delivery</span><span class="font-mono text-stone-800 font-bold">Rs. 150</span></div><div class="flex justify-between text-emerald-600 font-semibold"><span>Sajawal Coins Discount:</span><span class="font-mono">-Rs. 200</span></div><div class="border-t border-stone-200/60 pt-2.5 flex justify-between font-black text-amber-800 text-sm"><span>Total Bill</span><span class="font-mono text-amber-900">Rs. 13040</span></div></div><form id="checkout_form_container" class="bg-amber-100/50 p-4 rounded-2xl border border-amber-200 space-y-4"><div class="flex items-center justify-between border-b border-amber-200 pb-2"><span class="text-[10px] text-amber-950 font-black uppercase tracking-wider block">Aap Ka Thaqaza (Delivery Details)</span><button type="button" class="text-xs text-stone-500 hover:text-stone-800 font-extrabold">Go Back</button></div><div id="checkout_fulfillment_tabs" class="grid grid-cols-3 gap-1.5 p-1 bg-amber-200/40 rounded-xl"><button type="button" class="flex flex-col items-center justify-center py-2 px-1 rounded-lg text-[9.5px] font-black transition-all cursor-pointer bg-stone-900 text-amber-400 shadow-sm"><span class="text-xs mb-0.5">🛵</span><span class="leading-none text-center">Home Delivery</span></button><button type="button" class="flex flex-col items-center justify-center py-2 px-1 rounded-lg text-[9.5px] font-black transition-all cursor-pointer text-stone-700 hover:bg-stone-200/50"><span class="text-xs mb-0.5">🏨</span><span class="leading-none text-center">VIP Dine-In</span></button><button type="button" class="flex flex-col items-center justify-center py-2 px-1 rounded-lg text-[9.5px] font-black transition-all cursor-pointer text-stone-700 hover:bg-stone-200/50"><span class="text-xs mb-0.5">🛍️</span><span class="leading-none text-center">Takeaway</span></button></div><div class="space-y-3 text-left"><div class="space-y-1"><label class="text-[10px] font-bold text-stone-600 uppercase block">👤 Host Full Name</label><input required="" id="cust_name_field" placeholder="e.g. Arsalan Chaudhry" class="w-full bg-white text-xs p-2 rounded-xl text-stone-800 outline-none border border-stone-100/80 focus:ring-1 focus:ring-amber-400 font-semibold" type="text" value=""></div><div class="space-y-1"><label class="text-[10px] font-bold text-stone-600 uppercase block">📞 WhatsApp/Mobile Contact</label><input required="" id="cust_phone_field" placeholder="e.g. 0300-1234567" class="w-full bg-white text-xs p-2 rounded-xl text-stone-800 outline-none border border-stone-100/80 focus:ring-1 focus:ring-amber-400 font-semibold" type="text" value=""></div><div class="space-y-1"><label class="text-[10px] font-bold text-stone-600 uppercase block animate-fade-in">📍 Standard Delivery Address</label><textarea rows="2" required="" id="cust_address_field" placeholder="e.g. House 42-B, Sector F-11, Islamabad" class="w-full bg-white text-xs p-2 rounded-xl text-stone-800 outline-none border border-stone-100/80 focus:ring-1 focus:ring-amber-400 font-semibold"></textarea></div><div class="space-y-1"><label class="text-[10px] font-bold text-stone-600 uppercase block">✏️ Special Kitchen Instructions</label><input placeholder="e.g. extra spicy yogurt, charcoal tandoor extra crisp" class="w-full bg-white text-xs p-2 rounded-xl text-stone-800 outline-none border border-stone-100/80 focus:ring-1 focus:ring-amber-400 font-semibold" type="text" value=""></div></div><button type="submit" id="submit_checkout_btn" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs uppercase font-black py-3 rounded-xl transition-all cursor-pointer shadow-md">Confirm order</button></form></div></div><div class="bg-stone-950 text-white p-4 rounded-3xl border border-stone-850 space-y-3.5"><h4 class="text-[11px] text-amber-400 uppercase tracking-wider font-bold block">💡 Chef Shamshad's Secret Tip / خاص ٹپ</h4><p class="text-[10.5px] text-stone-400 leading-relaxed font-serif">"Always pair the Sizzling Chapli Pizza with our cool Mint Yogurt drizzle! It tames the Peshawari spice while letting the pomegranate tang burst beautifully on your palate."</p><div class="flex items-center gap-3 pt-2 text-[10px] text-amber-500 font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-3.5 h-3.5 text-amber-500 animate-spin animate-duration-[10000ms]" aria-hidden="true"><path d="M12 6v6l4 2"></path><circle cx="12" cy="12" r="10"></circle></svg><span>Clay oven is fully fired: 450°C 🪵 ready!</span></div></div></section></main><footer class="max-w-7xl mx-auto px-4 mt-16 text-center text-xs text-stone-400 space-y-4 border-t border-stone-200 pt-8"><div class="flex items-center justify-center gap-4 text-stone-500 text-xs flex-wrap font-bold"><span>© 2026 Desi Pizza Restaurant. All Rights Reserved.</span><span>•</span><span>Halal Certified ingredients</span><span>•</span><span>100% Authentic Clay Tandoor</span><span>•</span><span>Dosti Discount code: DESI20 (20% off)</span></div><p class="max-w-2xl mx-auto text-[11px] text-stone-400/80 leading-relaxed font-serif italic">"Zaiqa bilkul dukan jaisa, sneh-purn taseer tandoor ki! Made with premium flour, local hand-ground tandoori spice blends, and custom clay ovens."</p></footer></div></div>
+    <script type="module" src="./main.tsx"></script>
+  
+
+
+</body></html>
